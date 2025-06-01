@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\server">
+      <UniqueIdentifier>{ec0649ed-602b-4ac3-bccd-d406d1f70dde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\server">
+      <UniqueIdentifier>{d2f3742c-a59d-459a-a2eb-f3590d252b34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\game">
+      <UniqueIdentifier>{105b808b-b9c3-492c-9bee-0f9c5d8b7328}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Rounds">
+      <UniqueIdentifier>{dcb0908a-d37b-4220-a9b9-80ab3bef5e25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Rounds">
+      <UniqueIdentifier>{25d1c359-062f-47d2-97a0-505b1b8cfdc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\game">
+      <UniqueIdentifier>{bba5653d-c4c2-4eba-82b2-07b8d6a81353}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameServer.cpp">
+      <Filter>Исходные файлы\server</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Исходные файлы\server</Filter>
+    </ClCompile>
+    <ClCompile Include="FlopRound.cpp">
+      <Filter>Исходные файлы\Rounds</Filter>
+    </ClCompile>
+    <ClCompile Include="TurnRound.cpp">
+      <Filter>Исходные файлы\Rounds</Filter>
+    </ClCompile>
+    <ClCompile Include="ShowdownRound.cpp">
+      <Filter>Исходные файлы\Rounds</Filter>
+    </ClCompile>
+    <ClCompile Include="RiverRound.cpp">
+      <Filter>Исходные файлы\Rounds</Filter>
+    </ClCompile>
+    <ClCompile Include="PreflopRound.cpp">
+      <Filter>Исходные файлы\Rounds</Filter>
+    </ClCompile>
+    <ClCompile Include="Deck.cpp">
+      <Filter>Исходные файлы\game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Исходные файлы\game</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Исходные файлы\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TexasHoldemRules.cpp">
+      <Filter>Исходные файлы\game</Filter>
+    </ClCompile>
+    <ClCompile Include="RegistrationHandler.cpp">
+      <Filter>Исходные файлы\server</Filter>
+    </ClCompile>
+    <ClCompile Include="EntryHandler.cpp">
+      <Filter>Исходные файлы\server</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerGame.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ConnectionManager.h">
+      <Filter>Файлы заголовков\server</Filter>
+    </ClInclude>
+    <ClInclude Include="include.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageHandler.h">
+      <Filter>Файлы заголовков\server</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerManager.h">
+      <Filter>Файлы заголовков\server</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Файлы заголовков\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Poker\IGame.h">
+      <Filter>Файлы заголовков\game</Filter>
+    </ClInclude>
+    <ClInclude Include="Bank.h">
+      <Filter>Файлы заголовков\game</Filter>
+    </ClInclude>
+    <ClInclude Include="Cards.h">
+      <Filter>Файлы заголовков\game</Filter>
+    </ClInclude>
+    <ClInclude Include="Deck.h">
+      <Filter>Файлы заголовков\game</Filter>
+    </ClInclude>
+    <ClInclude Include="FlopRound.h">
+      <Filter>Файлы заголовков\Rounds</Filter>
+    </ClInclude>
+    <ClInclude Include="TurnRound.h">
+      <Filter>Файлы заголовков\Rounds</Filter>
+    </ClInclude>
+    <ClInclude Include="ShowdownRound.h">
+      <Filter>Файлы заголовков\Rounds</Filter>
+    </ClInclude>
+    <ClInclude Include="RiverRound.h">
+      <Filter>Файлы заголовков\Rounds</Filter>
+    </ClInclude>
+    <ClInclude Include="PreflopRound.h">
+      <Filter>Файлы заголовков\Rounds</Filter>
+    </ClInclude>
+    <ClInclude Include="IRound.h">
+      <Filter>Файлы заголовков\Rounds</Filter>
+    </ClInclude>
+    <ClInclude Include="IDeck.h">
+      <Filter>Файлы заголовков\game</Filter>
+    </ClInclude>
+    <ClInclude Include="IBettingSystem.h">
+      <Filter>Файлы заголовков\game</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameRules.h">
+      <Filter>Файлы заголовков\game</Filter>
+    </ClInclude>
+    <ClInclude Include="IPlayer.h">
+      <Filter>Файлы заголовков\game</Filter>
+    </ClInclude>
+    <ClInclude Include="ITable.h">
+      <Filter>Файлы заголовков\game</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Файлы заголовков\game</Filter>
+    </ClInclude>
+    <ClInclude Include="PotDistributor.h">
+      <Filter>Файлы заголовков\game</Filter>
+    </ClInclude>
+    <ClInclude Include="TexasHoldemRules.h">
+      <Filter>Файлы заголовков\game</Filter>
+    </ClInclude>
+    <ClInclude Include="RegistrationHandler.h">
+      <Filter>Файлы заголовков\server</Filter>
+    </ClInclude>
+    <ClInclude Include="EntryHandler.h">
+      <Filter>Файлы заголовков\server</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerGame.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameServer.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
